@@ -3096,19 +3096,3 @@ header .btn-contacto { display: none; }
     white-space: nowrap;
   }
 }
-
-@supports not (-webkit-touch-callout:none){
-  @media (max-width:480px){
-    html{
-      height: -webkit-fill-available;
-    }
-    body{
-      min-height:100dvh;
-    }
-    #hero{
-      min-height:auto;
-      height:auto;
-      padding-bottom: 85px;
-    }
-  }
-}
