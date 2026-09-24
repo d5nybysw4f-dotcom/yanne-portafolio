@@ -2748,8 +2748,8 @@ header .btn-contacto { display: none; }
 
   /* Header */
 #hero{
-  min-height: 50dvh;
-  min-height: 50svh;
+  min-height: 90dvh;
+  min-height: 90svh;
   min-height: -webkit-fill-available;
 }
   
