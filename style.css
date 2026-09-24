@@ -2748,9 +2748,7 @@ header .btn-contacto { display: none; }
 
   /* Header */
    #hero {
-    min-height: 80dvh;
-    min-height: 80svh;
-    min-height: -webkit-fill-available;
+    min-height: auto;
   }
   
   #headerbar {
