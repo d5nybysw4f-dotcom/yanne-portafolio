@@ -2363,7 +2363,7 @@ header .btn-contacto { display: none; }
   gap: 10px;
   padding: 20px;
 }
-#hero{ height: 50vh; }
+#hero{ height: 80vh; }
 
  .hero-left {
   grid-area: 1 / 2; 
