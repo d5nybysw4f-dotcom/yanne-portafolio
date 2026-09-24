@@ -2758,6 +2758,13 @@ header .btn-contacto { display: none; }
 
   /* Hero */
 
+    /* Header */
+     #hero {
+    min-height: 80dvh;
+    min-height: 80svh;
+    min-height: -webkit-fill-available;
+  }
+
   #hero-content {
    grid-template-columns: 1fr;
     padding:30px;
