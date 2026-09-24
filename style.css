@@ -2742,13 +2742,14 @@ header .btn-contacto { display: none; }
 
 }
 
-
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) {
 
   /* Header */
-   #hero {
-    min-height: auto;
+     #hero {
+    min-height: 80dvh;
+    min-height: 80svh;
+    min-height: -webkit-fill-available;
   }
   
   #headerbar {
@@ -3093,5 +3094,21 @@ header .btn-contacto { display: none; }
     .skills-grupo h4 {
     font-size: 0.6em;
     white-space: nowrap;
+  }
+}
+
+@supports not (-webkit-touch-callout:none){
+  @media (max-width:480px){
+    html{
+      height: -webkit-fill-available;
+    }
+    body{
+      min-height:100dvh;
+    }
+    #hero{
+      min-height:auto;
+      height:auto;
+      padding-bottom: 85px;
+    }
   }
 }
