@@ -63,7 +63,7 @@ button {
 }
 
 body {
-  background-color: #000000;
+  background-color: #080808;
   display: flex;
   justify-content: center;
 
@@ -218,7 +218,7 @@ header.scrolled {
   gap:clamp(10px, 2vw, 20px);
   padding: 60px;
   overflow: visible;
-  background-color: #080808;
+  background-color: #000000;
   background-image:
     radial-gradient(ellipse 30% 50% at 53% 55%, rgba(129, 22, 52, 0.35) 0%, transparent 65%);
 }
