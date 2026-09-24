@@ -2747,14 +2747,14 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -100px;
+    margin-top: -150px;
   }
 
   .hero-left {
     width: 250px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 220px;
+    margin-top: 240px;
   }
 
   .hero-sub { font-size: 1em; }
