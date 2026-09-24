@@ -384,40 +384,6 @@ transform: translateY(-770px);
 
 /*TERMINA  HERO*/
 
-
-/* MARQUEE */
-.marquee {
-  overflow: hidden;
-  padding: 17px 0;
-  background-color: #3d0a18;
-}
-
-.marquee-track {
-  display: flex;
-  width: max-content;
-  animation: marquee 60s linear infinite;
-}
-
-.marquee-track span {
-  white-space: nowrap;
-  padding-right: 0;
-  font-size: 1em;
-  letter-spacing: 5px;
-  color: rgba(255, 255, 255, 0.75);
-  font-family: Montserrat;
-  font-weight: 600;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
 /*SOBRE MI*/
 
 #sobre-mi {
