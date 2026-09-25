@@ -391,7 +391,7 @@ transform: translateY(-770px);
   justify-content: center;
   align-items: center;
   column-gap: 200px;
-  background-color: #080808;
+  background-color: #000000;
   position: relative;
   overflow: hidden;
   padding: 50px 100px;
@@ -2110,12 +2110,8 @@ header {
     border-bottom: 2px solid var(--rosa);
   }
 
-  /* ── QUÉ HAGO ── */
-  #que-hago {
-    margin-top: 40px;
-  }
-
-  .subtitulo-seccion {
+  /* ── QUÉ HAGO ── */ 
+ .subtitulo-seccion {
     max-width: 700px;
   }
 
@@ -2205,7 +2201,7 @@ header {
 
 }
 
-/* ── MENU HAMBURGUESA── */
+/* ── MENU HAMBURGUESA 992px── */
 @media (max-width: 992px) {
 
    #hero-content {
@@ -2268,7 +2264,7 @@ header .btn-contacto { display: none; }
     min-height: 80vh;
   }
 
-   #hero-content {
+  #hero-content {
   grid-template-columns: 1fr 1fr;
   place-items: center;
   gap: 40px;
@@ -2303,7 +2299,7 @@ header .btn-contacto { display: none; }
  .hero-right {
   gap: 10px;
   grid-area: 2 / 2;
-  margin-top: -333px;
+  margin-top: -345px;
   width: 330px;
   place-items: center;
 }
@@ -2708,7 +2704,7 @@ header .btn-contacto { display: none; }
   }
 
   .hero-right {
-    margin-top: -500px;
+    margin-top: -515px;
   }
 
 }
@@ -2746,7 +2742,7 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -150px;
+    margin-top: -155px;
   }
 
   .hero-left {
