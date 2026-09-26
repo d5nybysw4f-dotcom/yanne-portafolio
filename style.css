@@ -2736,14 +2736,14 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -145px;
+    margin-top: -100px;
   }
 
   .hero-left {
     width: 250px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 240px;
+    margin-top: 200px;
   }
 
   .hero-sub { font-size: 1em; }
@@ -2751,7 +2751,7 @@ header .btn-contacto { display: none; }
   .card-wrapper {
     width: 215px;
     transform: translateY(-210px);
-    margin-top: -130px;
+    margin-top: -100px;
     animation: none;
     grid-area: 1 / 1;
   }
