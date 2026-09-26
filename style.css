@@ -2736,14 +2736,14 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -200px;
+    margin-top: -210px;
   }
 
   .hero-left {
     width: 250px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 210px;
+    margin-top: 220px;
   }
 
   .hero-sub { font-size: 1em; }
