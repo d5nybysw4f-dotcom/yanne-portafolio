@@ -2706,6 +2706,12 @@ header .btn-contacto { display: none; }
   .hero-right {
     margin-top: -515px;
   }
+.sobre-right {
+  align-items: center;
+  max-width: 650px;
+  gap:15px;
+  max-width: 700px;
+}
 
 }
 
