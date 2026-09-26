@@ -2736,7 +2736,7 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -170px;
+    margin-top: -200px;
   }
 
   .hero-left {
@@ -2751,7 +2751,7 @@ header .btn-contacto { display: none; }
   .card-wrapper {
     width: 215px;
     transform: translateY(-210px);
-    margin-top: -115px;
+    margin-top: -120px;
     animation: none;
     grid-area: 1 / 1;
   }
