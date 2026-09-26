@@ -2728,7 +2728,7 @@ header .btn-contacto { display: none; }
 
   #hero-content {
    grid-template-columns: 1fr;
-    padding: 30px;
+    padding: 0px;
   }
 
   .hero-right {
