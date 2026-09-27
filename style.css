@@ -2693,9 +2693,10 @@ header .btn-contacto { display: none; }
 @media (max-width: 600px) {
   /* HERO*/
   #hero {
-    min-height: 60dvh;
-    min-height: 60vh;
+    min-height: 40dvh;
+    min-height: 40vh;
   }
+
  .hero-bg {
     height: 90%;
   }
@@ -2734,7 +2735,10 @@ header .btn-contacto { display: none; }
   #headerbar {
     padding: 10px 20px;
   }
-
+ #hero {
+    min-height: 70dvh;
+    min-height: 70vh;
+  }
   .icono-header {
     width: 54px;
     height: 54px;
