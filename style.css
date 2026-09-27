@@ -2692,6 +2692,10 @@ header .btn-contacto { display: none; }
 /* ── TABLET (≤ 600px) ─────────────────────────────────────────── */
 @media (max-width: 600px) {
   /* HERO*/
+  #hero-content {
+    min-height: 60dvh;
+    min-height: 60vh;
+  }
  .hero-bg {
     height: 90%;
   }
@@ -2719,7 +2723,7 @@ header .btn-contacto { display: none; }
 }
 
   #sobre-mi{
-    padding-top: 50px;
+    padding: 51px 50px;
   }
 
 
@@ -2736,11 +2740,6 @@ header .btn-contacto { display: none; }
     height: 54px;
   }
     /* HERO  */
- #hero {
-    min-height: 100dvh;
-    min-height: 100svh;
-    min-height: -webkit-fill-available;
-  }
 
   #hero-content {
    grid-template-columns: 1fr;
@@ -2795,6 +2794,7 @@ header .btn-contacto { display: none; }
 .foto-collage { width: clamp(250px, 70vw, 300px); }
 .hola-titulo { width: clamp(110px, 30vw, 200px); }
 
+  
 .sobre-right {
   align-items: center;
   max-width: 800px;
