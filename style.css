@@ -2004,7 +2004,10 @@ header {
   }
 
   /* ── HERO ── */
-  #hero{ min-height: 73vw;}
+  #hero{ 
+    min-height: 80dvh;
+    min-height: 80vh;
+  }
   
   .hero-sub { font-size: 1.25em; }
   
