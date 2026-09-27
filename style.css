@@ -2005,8 +2005,8 @@ header {
 
   /* ── HERO ── */
   #hero{ 
-    min-height: 80dvh;
-    min-height: 80vh;
+    min-height: 70dvh;
+    min-height: 70vh;
   }
   
   .hero-sub { font-size: 1.25em; }
@@ -2265,7 +2265,7 @@ header .btn-contacto { display: none; }
   /* Hero */
 
    #hero {
-    min-height: 80vh;
+    min-height: 70vh;
   }
 
   #hero-content {
@@ -2334,7 +2334,7 @@ header .btn-contacto { display: none; }
   gap: 10px;
   padding: 20px;
 }
-#hero{ min-height: 80vh; }
+#hero{ min-height: 60vh; }
 
  .hero-left {
   grid-area: 1 / 2; 
@@ -2696,8 +2696,8 @@ header .btn-contacto { display: none; }
 @media (max-width: 600px) {
   /* HERO*/
   #hero {
-    min-height: 70dvh;
-    min-height: 70vh;
+    min-height: 50dvh;
+    min-height: 50vh;
   }
 
  .hero-bg {
@@ -2739,8 +2739,8 @@ header .btn-contacto { display: none; }
     padding: 10px 20px;
   }
  #hero {
-    min-height: 90dvh;
-    min-height: 90vh;
+    min-height: 70dvh;
+    min-height: 70vh;
   }
   .icono-header {
     width: 54px;
