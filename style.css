@@ -2004,7 +2004,7 @@ header {
   }
 
   /* ── HERO ── */
-  #hero{ height: 100vw; }
+  #hero{ height: 83svh; }
   
   .hero-sub { font-size: 1.25em; }
   
@@ -2331,7 +2331,7 @@ header .btn-contacto { display: none; }
   gap: 10px;
   padding: 20px;
 }
-#hero{ min-height: 60vh; }
+#hero{ height: 77svh; }
 
  .hero-left {
   grid-area: 1 / 2; 
@@ -2693,8 +2693,7 @@ header .btn-contacto { display: none; }
 @media (max-width: 600px) {
   /* HERO*/
   #hero {
-    min-height: 50dvh;
-    min-height: 50vh;
+  height: 65svh;
   }
 
  .hero-bg {
@@ -2736,8 +2735,7 @@ header .btn-contacto { display: none; }
     padding: 10px 20px;
   }
  #hero {
-    min-height: 70dvh;
-    min-height: 70vh;
+  height: 84svh;
   }
   .icono-header {
     width: 54px;
@@ -3014,7 +3012,9 @@ header .btn-contacto { display: none; }
 @media (max-width: 360px) {
 
   /* Hero */
-
+  #hero {
+  height: 83svh;
+  }
   #hero-content {
     padding:10px;
   }
