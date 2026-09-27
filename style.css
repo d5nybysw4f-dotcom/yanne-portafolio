@@ -2691,6 +2691,10 @@ header .btn-contacto { display: none; }
 
 /* ── TABLET (≤ 600px) ─────────────────────────────────────────── */
 @media (max-width: 600px) {
+  /* HERO*/
+ .hero-bg {
+    height: 90%;
+  }
   .card-wrapper {
    width:240px;
    transform: translateY(-600px);
@@ -2715,8 +2719,9 @@ header .btn-contacto { display: none; }
 }
 
   #sobre-mi{
-    padding-top: 20px;
+    padding-top: 50px;
   }
+
 
 }
 
