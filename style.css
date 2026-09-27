@@ -2714,6 +2714,10 @@ header .btn-contacto { display: none; }
   max-width: 700px;
 }
 
+  #sobre-mi{
+    padding:0;
+  }
+
 }
 
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
