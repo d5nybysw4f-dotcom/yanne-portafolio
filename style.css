@@ -456,7 +456,7 @@ transform: translateY(-770px);
 .mini-metricas {
   display: flex;
   gap: 32px;
-  margin: 10px 0 10px 0;
+  margin: 0;
   align-items: center;
 }
 
@@ -2732,8 +2732,8 @@ header .btn-contacto { display: none; }
   }
     /* HERO  */
  #hero {
-    min-height: 80dvh;
-    min-height: 80svh;
+    min-height: 100dvh;
+    min-height: 100svh;
     min-height: -webkit-fill-available;
   }
 
