@@ -2600,7 +2600,7 @@ header .btn-contacto { display: none; }
 
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) { 
-  #hero{ height: 85vh; }  
+  #hero{ height: 89svh; }  
   #headerbar {
     padding: 10px 20px;
   }
@@ -2619,14 +2619,14 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -265px;
+    margin-top: -210px;
   }
 
   .hero-left {
     width: 230px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 190px;
+    margin-top: 230px;
   }
 
   .hero-sub { font-size: 1em; }
