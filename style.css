@@ -16,17 +16,11 @@
   font-family: montserrat;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html {scroll-behavior: smooth;}
 
-ul {
-  list-style: none;
-}
+ul {list-style: none;}
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
 
 img {
   max-width: 100%;
@@ -66,7 +60,6 @@ body {
   background-color: #080808;
   display: flex;
   justify-content: center;
-
 }
 
 #container {
@@ -129,7 +122,6 @@ header.scrolled {
 .nav-contacto-movil {
   display: none;
 }
-
 
 .btn-contacto {
   display: flex;
@@ -314,7 +306,6 @@ header.scrolled {
   filter: brightness(1.15);
 }
 
-
 /*ID CARD*/
 
 .card-inner {
@@ -365,27 +356,18 @@ transform: translateY(-770px);
 }
 
 @keyframes cardBounce {
-  0% {
-    scale: 1;
-  }
+  0% {scale: 1;}
 
-  40% {
-    scale: 1.045;
-  }
+  40% {scale: 1.045;}
 
-  70% {
-    scale: 0.985;
-  }
+  70% {scale: 0.985;}
 
-  100% {
-    scale: 1;
-  }
+  100% {scale: 1;}
 }
 
 /*TERMINA  HERO*/
 
 /*SOBRE MI*/
-
 #sobre-mi {
   display: flex;
   justify-content: center;
@@ -411,15 +393,16 @@ transform: translateY(-770px);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 150px;
+  gap: 50px;
 }
 
 .sobre-left {
   flex-shrink: 0;
+  width: 500px;
 }
 
 .foto-collage {
-  width: clamp(300px, 35vw, 580px);
+  width: 500px;
   height: auto;
 }
 
@@ -427,11 +410,11 @@ transform: translateY(-770px);
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-width: 480px;
+  max-width: 600px;
 }
 
 .hola-titulo {
-  width: clamp(150px, 20vw, 280px);
+  width: 210px;
   height: auto;
 }
 
@@ -508,7 +491,6 @@ transform: translateY(-770px);
   overflow: hidden;
   padding: 50px 100px;
 }
-
 
 #experiencia .titulos {
   align-items: center;
@@ -1830,9 +1812,7 @@ header {
 @media (max-width: 1440px) {
 
   /* Header */
-  #headerbar {
-    padding: clamp(16px, 5vw, 18px);
-  }
+  #headerbar {padding: clamp(16px, 5vw, 18px);}
 
   .icono-header {
     width: clamp(60px, 15.625vw, 85px);
@@ -1843,88 +1823,48 @@ header {
     column-gap: clamp(40px, 15.625vw, 80px);
   }
 
-  .menu-toggle {
-    display: none
-  }
+  .menu-toggle {display: none}
 
   /* Hero */
-
-  .hero-sub {
-    font-size: 1.2em;
-  }
-  .hero-left{
-    width: 320px;
-  }
-  .hero-right{
-    width: 320px;
-  }
+  #hero {height: clamp(700px, 95vh, 800px);}
+  .hero-sub {font-size: 1.2em;}
+  .hero-left{width: clamp(320px, 30vw, 350px);}
+  .hero-right{width: clamp(100px, 30vw, 350px);}
   .btn-hero {
     font-size: 0.85em;
     padding: 10px 15px;
   }
-  .hero-right p {
-    font-size: 1em;
-  }
-
+  .hero-right p {font-size: 1em;}
   .card-wrapper {
-    transform: translateY(-650px);
-    width: 300px;
+    margin-top: clamp(95px, 20vw, 100px);
+    width: clamp(300px, 24.3vw, 400px);
   }
-
-  .card-wrapper:hover {
-    transform: scale(1) translateY(-640px);
-  }
+  .card-wrapper:hover {transform: scale(1) translateY(-760px);}
 
   /* Sobre mí */
-  #sobre-mi-content {
-    gap: 60px;
-    padding: 80px;
-  }
-
-  .foto-collage {
-    width: clamp(280px, 30vw, 440px);
-  }
-
-  .hola-titulo {
-    width: clamp(130px, 18vw, 240px);
-  }
-
-  
+  #sobre-mi-content {padding: 0 80px;}
+  .sobre-left{width: 440px;}
+  .hola-titulo{ width: 200px;}
 
   /* Experiencia */
-  .container-cards {
-    width: 85%;
-  }
+  .container-cards {width: 85%;}
 
-  #skills {
-    width: 85%;
-    gap: 35px;
-  }
+  #skills {width: 85%; gap: 35px; }
 
-  .item-info h4 {
-    font-size: 0.8em;
-  }
+  .item-info h4 {font-size: 0.8em;}
   
-  .skills-grupo h4 {
-    font-size: 1em;
-  }
+  .skills-grupo h4 {font-size: 1em;}
 
-  .card-info h3 {
-    font-size: 1em;
-  }
+  .card-info h3 {font-size: 1em;}
 
   .programas img {
     width: 50px;
     height: 50px;
   }
 
-  .programas {
-    width: 60px;
-  }
+  .programas {width: 60px;}
 
-  .programas span {
-    font-size: 0.55em;
-  }
+  .programas span {font-size: 0.55em;}
 
   /* Que hago */
   .tapa-wrapper {
@@ -1932,9 +1872,7 @@ header {
     margin-top: -215px;
   }
 
-  .carpeta-base {
-    width: 390px;
-  }
+  .carpeta-base {width: 390px;}
 
   .tarjeta-info {
     width: 280px;
@@ -2004,78 +1942,50 @@ header {
   }
 
   /* ── HERO ── */
-  #hero{ min-height: 73vw; }
-  
+  #hero{ height: 87svh; }
   .hero-sub { font-size: 1.25em; }
-  
   .hero-right p { font-size: 0.9em; }
-  
-  .card-wrapper {
-    transform: translateY(-640px);
-    width: 290px;
-  }
-
-  .card-wrapper:hover {
-    transform: rotate(0deg) translateY(-630px);
-  }
-
-  .hero-left{
-    width: 280px;
-  }
-  .hero-right{
-    width: 280px;
-  }
-  
-  #hero-content{
-    gap: 40px;
-    padding: 44;
-  }
+  .card-wrapper { width: 310px; margin-top: 140px; }
+  .card-wrapper:hover {transform: rotate(0deg) translateY(-740px);}
+  .hero-left{width: 270px;}
+  .hero-right{width: 270px;}
+  #hero-content{gap:20px; padding: 0 80px;}
 
   /* ── SOBRE MÍ ── */
-#sobre-mi-content { gap: 40px; padding: 60px; }
-.foto-collage { width: clamp(430px, 28vw, 380px); }
+#sobre-mi-content { gap:30px; padding: 0 60px; }
+.sobre-left { width: 400px; }
+.hola-titulo { width: 180px; }
 .sobre-right p { font-size: 0.9em; }
-.sobre-right { max-width: 700px; }
+.sobre-right { max-width: 600px; gap: 15px; }
+.btn-contacto { margin:10px}
 
   /* ── EXPERIENCIA ── */
-  #experiencia {
-    padding: 70px 5px;
-  }
+  #experiencia {padding: 70px 5px;}
 
   #skills {
     width: 80%;
     gap: clamp(5px, 5vw, 70px);
   }
 
-  .skills-fila {
-    gap: 20px;
-  }
+  .skills-fila {gap: 20px;}
 
-  .skills-grupo h4 {
-    font-size: 0.9em;
-  }
+  .skills-grupo h4 {font-size: 0.9em;}
 
   .programas img {
     width: 40px;
     height: 40px;
   }
 
-  .programas {
-    width: 50px;
-  }
+  .programas {width: 50px;}
 
-  .programas span {
-    font-size: 0.5em;
-  }
+  .programas span {font-size: 0.5em;}
 
   .card-info {
     padding: 28px 36px;
     width: 80%;
   }
 
-  .container-cards {
-    display: none;
-  }
+  .container-cards {display: none;}
 
   .tabs-container {
     display: block;
@@ -2261,56 +2171,39 @@ header .btn-contacto { display: none; }
 
   /* Hero */
 
-   #hero {
-    min-height: 70vh;
-  }
+  #hero {height: 84vh; padding:0;}
 
   #hero-content {
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  gap: 40px;
-  padding: 80px;
+  gap: 20px;
+  padding: 0px;
 }
- .hero-titulo-mobile { 
-    display: block; 
-  }
+ .hero-titulo-mobile { display: block; }
 
-  .hero-titulo-desktop { 
-    display: none; 
-  }
+ .hero-titulo-desktop { display: none; }
 
  .hero-left {
   grid-area: 1 / 2; 
-  margin-top: 100px;
-  width: 330px;
+  margin-top: 150px;
+  width: clamp(100px, 60vw, 350px);
   }
 
-  .card-wrapper {
-    width: 280px;
-    margin-top: -1px;
-    animation: none;
-    grid-area: 1 / 1 / 3 / 2;
-    transform: translateY(-615px);
-  }
-
-  .card-wrapper:hover {
-    transform: translateY(-605px);
-  }
-
- .hero-right {
+  .hero-right {
   gap: 10px;
   grid-area: 2 / 2;
-  margin-top: -345px;
-  width: 330px;
+  margin-top: -500px;
+  width: clamp(300px, 60vw, 350px);
   place-items: center;
 }
-
-.btn-hero {
-    font-size: 0.75em;
-    padding: 8px 20px;
+  .card-wrapper {
+    width: clamp(80px, 60vw, 330px);
+    margin-top: 130px;
+    animation: none;
+    grid-area: 1 / 1 / 3 / 2;
   }
-
-  .foto-collage { width: clamp(250px, 70vw, 360px); }
+  .card-wrapper:hover {transform: translateY(-770px);}
+  .btn-hero { font-size: 0.75em;padding: 8px 20px;}
 }
 
 /* ── TABLET (≤ 768px) ─────────────────────────────────────────── */
@@ -2327,34 +2220,32 @@ header .btn-contacto { display: none; }
   }
 
   /* Hero */
-   #hero-content {
-  gap: 10px;
-  padding: 20px;
-}
-#hero{ min-height: 60vh; }
+  #hero{ height: 74vh; }
+
+  #hero-content {padding: 50px; gap: 20px;}
 
  .hero-left {
   grid-area: 1 / 2; 
-  margin-top: 100px;
+  margin-top: 50px;
   width: clamp(150px, 40vw, 300px);
   }
   
  .hero-right {
   gap: 10px;
   grid-area: 2 / 2;
-  margin-top: -450px;
+  margin-top: -550px;
   width: clamp(150px, 40vw, 300px);
   place-items: center;
   text-align: center  ;
 }
 .card-wrapper {
-    width: clamp(150px, 60vw, 280px);
+    width: clamp(100px, 60vw, 280px);
     animation: none;
     grid-area: 1 / 1 / 3 / 2;
-    transform: translateY(-650px) ;
+    margin-top: 200px;
   }
   .card-wrapper:hover {
-    transform: translateY(-640px);
+    transform: translateY(-750px);
   }
 
 .btn-hero {
@@ -2371,8 +2262,10 @@ header .btn-contacto { display: none; }
   gap: 10px;
 }
 
-.foto-collage { width: clamp(250px, 70vw, 360px); }
-.hola-titulo { width: clamp(110px, 30vw, 200px); }
+.sobre-left {
+  width: 340px;
+}
+.hola-titulo { width: clamp(110px, 30vw, 150px); }
 
 .sobre-right {
   align-items: center;
@@ -2691,60 +2584,38 @@ header .btn-contacto { display: none; }
 
 /* ── TABLET (≤ 600px) ─────────────────────────────────────────── */
 @media (max-width: 600px) {
-  /* HERO*/
-  #hero {
-    min-height: 50dvh;
-    min-height: 50vh;
+/* HERO*/
+#hero{ height: 64svh; }
+#hero-content {padding: 20px; gap: 10px;}
+.hero-bg {height: 90%;}
+.card-wrapper {
+   width: clamp(200px, 60vw, 245px);
+   margin-top: 250px;
   }
-
- .hero-bg {
-    height: 90%;
-  }
-  .card-wrapper {
-   width:240px;
-   transform: translateY(-600px);
-  }
-
-  card-wrapper:hover {
-    transform: translateY(-600px);
-  }
-
-  .hero-left {
-    margin-top: 30px;
-  }
-
-  .hero-right {
-    margin-top: -515px;
-  }
+  card-wrapper:hover {transform: translateY(-670px);}
+.hero-left {margin-top: 30px;}
+.hero-right {margin-top: -550px;}
 .sobre-right {
   align-items: center;
-  max-width: 650px;
   gap:15px;
   max-width: 700px;
 }
-
-  #sobre-mi{
-    padding: 51px 50px;
-  }
-
-
+.sobre-left { width: 285px; }
+.hola-titulo { width: 130px; }
+#sobre-mi{ padding: 20px 40px; }
 }
 
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
-@media (max-width: 480px) {   
+@media (max-width: 480px) { 
+  #hero{ height: 78svh; }  
   #headerbar {
     padding: 10px 20px;
-  }
- #hero {
-    min-height: 70dvh;
-    min-height: 70vh;
   }
   .icono-header {
     width: 54px;
     height: 54px;
   }
     /* HERO  */
-
   #hero-content {
    grid-template-columns: 1fr;
     padding: 0px;
@@ -2755,28 +2626,27 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -210px;
+    margin-top: -440px;
   }
 
   .hero-left {
     width: 250px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 220px;
+    margin-top: -380px;
   }
 
   .hero-sub { font-size: 1em; }
 
   .card-wrapper {
     width: 215px;
-    transform: translateY(-210px);
-    margin-top: -120px;
+    margin-top: 530px;
     animation: none;
     grid-area: 1 / 1;
   }
 
   .card-wrapper:hover {
-    transform: translateY(-200px);
+    transform: translateY(-760px);
   }
 
   .hero-right p { font-size: 0.9em; }
@@ -2791,27 +2661,21 @@ header .btn-contacto { display: none; }
 #sobre-mi-content {
   align-items: center;
   text-align: center;
-  padding: 30px 0;
+  padding: 35px 0;
   gap: 2px;
 }
-
-.foto-collage { width: clamp(250px, 70vw, 300px); }
-.hola-titulo { width: clamp(110px, 30vw, 200px); }
-
-  
+.sobre-left {width: 260px;}
+.hola-titulo { width: 140px; }
 .sobre-right {
   align-items: center;
-  max-width: 800px;
+  max-width: 700px;
   gap:10px;
 }
-
 .sobre-right p { font-size: 0.88em; }
-
 .mini-metricas { justify-content: center; flex-wrap: nowrap; gap: 24px; }
 .mini-metrica span:first-child { font-size: 1.2em; }
 .mini-metrica span:last-child { font-size: 0.6em; }
-
-.btn-contacto { align-self: center; }
+.btn-contacto { align-self: center; margin:8px;}
 
 
   /* Experiencia */
@@ -3021,25 +2885,38 @@ header .btn-contacto { display: none; }
 
   .hero-left {
     width: 240px;
-    margin-top: 220px;
+    margin-top: 140px;
   }
 
   .hero-right {
     width: 300px;
-    margin-top: -220px;
+    margin-top: -320px;
   }
 
   .card-wrapper {
     width: 215px;
     transform: translateY(-230px);
-    margin-top: -70px;
+    margin-top: -150px;
   }
 
   .card-wrapper:hover {
     transform: translateY(-220px);
   }
-.card-info ul li {
-    gap: 30px;
+
+  .sobre-right {
+    max-width: 280px;
+  }
+  .hola-titulo { width: 120px; }
+  .mini-metrica span:first-child {
+    font-size: 1.1em;
+  }
+  .mini-metrica span:last-child {
+    font-size: 0.55em;
+  }
+  .mini-metricas { gap: 20px; width: 250px; }
+
+  .card-info ul li {
+    gap: 40px;
   }
 
   .item-info p {
