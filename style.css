@@ -2600,7 +2600,7 @@ header .btn-contacto { display: none; }
 
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) { 
-  #hero{ height: 85svh; }  
+  #hero{ height: 85vh; }  
   #headerbar {
     padding: 10px 20px;
   }
@@ -2619,14 +2619,14 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -250px;
+    margin-top: -265px;
   }
 
   .hero-left {
-    width: 250px;
+    width: 230px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 200px;
+    margin-top: 190px;
   }
 
   .hero-sub { font-size: 1em; }
@@ -2639,7 +2639,7 @@ header .btn-contacto { display: none; }
   }
 
   .card-wrapper:hover {
-    transform: translateY(10px);
+    transform: translateY(0px);
   }
 
   .hero-right p { font-size: 0.9em; }
@@ -2877,13 +2877,13 @@ header .btn-contacto { display: none; }
   }
 
   .hero-left {
-    width: 240px;
-    margin-top: 200px;
+    width: 210px;
+    margin-top: 190px;
   }
 
   .hero-right {
     width: 300px;
-    margin-top: -230px;
+    margin-top: -240px;
   }
 
   .card-wrapper {
