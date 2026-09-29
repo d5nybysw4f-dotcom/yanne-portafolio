@@ -2602,8 +2602,11 @@ header .btn-contacto { display: none; }
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) { 
  #hero {
-  height: 90dvh;
+  height: 74dvh;
 } 
+#container{
+  background-color: #000;
+}
   #headerbar {
     padding: 10px 20px;
   }
@@ -2614,7 +2617,9 @@ header .btn-contacto { display: none; }
     /* HERO  */
   #hero-content {
    grid-template-columns: 1fr;
-   padding: 0px;
+   padding: 0;
+   gap: 250px;
+   margin:50px 0;
   }
 
   .hero-sub{display:none;}
@@ -2623,14 +2628,14 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -220px;
+    
   }
 
   .hero-left {
     width: 230px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 200px;
+
   }
 
   .card-wrapper {
