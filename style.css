@@ -2603,7 +2603,7 @@ header .btn-contacto { display: none; }
 @media (max-width: 480px) { 
  #hero {
   height: 90dvh; 
-  min-height: 10px; 
+  min-height: 0px; 
 } 
   #headerbar {
     padding: 10px 20px;
