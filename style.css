@@ -2616,7 +2616,7 @@ header .btn-contacto { display: none; }
    grid-template-columns: 1fr;
     padding: 0px;
   }
-
+  .hero-sub{display:none;}
   .hero-right {
     width: 300px;
     place-items: center;
@@ -2631,8 +2631,6 @@ header .btn-contacto { display: none; }
     grid-area: 2/ 1;
     margin-top: 230px;
   }
-
-  .hero-sub { font-size: 1em; }
 
   .card-wrapper {
     width: 215px;
