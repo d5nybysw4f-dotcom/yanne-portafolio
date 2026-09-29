@@ -2601,7 +2601,7 @@ header .btn-contacto { display: none; }
 
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) { 
-  #hero{ height: 85dvh; }  
+  #hero{ height: 95dvh; }  
   #headerbar {
     padding: 10px 20px;
   }
@@ -2620,20 +2620,20 @@ header .btn-contacto { display: none; }
     place-items: center;
     text-align: center;
     grid-area: 3 / 1;
-    margin-top: -260px;
+    margin-top: -210px;
   }
 
   .hero-left {
     width: 230px;
     text-align: center;
     grid-area: 2/ 1;
-    margin-top: 180px;
+    margin-top: 230px;
   }
 
   .hero-sub { font-size: 1em; }
 
   .card-wrapper {
-    width: 210px;
+    width: 215px;
     margin-top: -550px;
     animation: none;
     grid-area: 1 / 1;
@@ -2879,12 +2879,12 @@ header .btn-contacto { display: none; }
 
   .hero-left {
     width: 210px;
-    margin-top: 190px;
+    margin-top: 230px;
   }
 
   .hero-right {
     width: 300px;
-    margin-top: -240px;
+    margin-top: -210px;
   }
 
   .card-wrapper {
