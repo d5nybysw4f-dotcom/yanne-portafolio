@@ -1,24 +1,28 @@
-// MENU DESPEGABLE
+// MENU DESPLEGABLE
 var menuToggle = document.querySelector('.menu-toggle');
 var navList = document.querySelector('.nav-list');
 
+// Toggle al hacer clic en el botón del menú
 menuToggle.addEventListener('click', function() {
   navList.classList.toggle('activo');
   menuToggle.classList.toggle('abierto');
 });
+
+// Cierre al hacer clic fuera del menú o botón
 document.addEventListener('click', function(e) {
   if (!navList.contains(e.target) && !menuToggle.contains(e.target)) {
     navList.classList.remove('activo');
     menuToggle.classList.remove('abierto');
   }
 });
+
+// Cierre al hacer clic en un enlace 
 document.querySelectorAll('.nav-list a').forEach(function(link) {
   link.addEventListener('click', function() {
     navList.classList.remove('activo');
+    menuToggle.classList.remove('abierto'); 
   });
 });
-
-
 
 // CARPETA DESKTOP
 var carpeta = document.querySelector(".carpeta-container");
