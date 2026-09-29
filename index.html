@@ -69,15 +69,21 @@
     </div>
 
 	<div class="card-wrapper" id="card">
-        <div class="card-inner">
-          <div class="card-face card-front">
-            <img src="imagenes/front.png" alt="Front">
-          </div>
-          <div class="card-face card-back">
-            <img src="imagenes/back.png" alt="Back">
-          </div>
-        </div>
-      </div>
+  <div class="card-inner">
+    <div class="card-face card-front">
+      <picture>
+        <source media="(max-width: 768px)" srcset="imagenes/photocheck-cuadrado-front.png">
+        <img src="imagenes/front.png" alt="Photocheck Frontal">
+      </picture>
+    </div>
+    <div class="card-face card-back">
+      <picture>
+        <source media="(max-width: 768px)" srcset="imagenes/photocheck-cuadrado-back.png">
+        <img src="imagenes/back.png" alt="Photocheck Trasero">
+      </picture>
+    </div>
+  </div>
+</div>
 	  
     <div class="hero-right">
       <p>Diseño interfaces en Figma y las convierto en código frontend fiel al diseño original.</p>
