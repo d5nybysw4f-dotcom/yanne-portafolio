@@ -2602,15 +2602,8 @@ header .btn-contacto { display: none; }
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) { 
  #hero {
-  height: 85dvh; 
-  min-height: 85vh;
-  min-height: 600px; 
-  @supports (height: -webkit-fill-available) {
-    height: -webkit-fill-available;
-  }
-  @supports (height: 85dvh) {
-    height: 85dvh;
-  }
+  height: 90dvh; 
+  min-height: 300px; 
 } 
   #headerbar {
     padding: 10px 20px;
