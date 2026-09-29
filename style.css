@@ -190,6 +190,7 @@ header.scrolled {
 /*EMPIEZA HERO*/
 #hero {
   position: relative;
+  background-color: #000000;
 }
 
 .hero-bg {
@@ -2600,7 +2601,7 @@ header .btn-contacto { display: none; }
 
 /* ── MÓVIL (≤ 480px) ──────────────────────────────────────────── */
 @media (max-width: 480px) { 
-  #hero{ height: 89dvh; }  
+  #hero{ height: 95svh; }  
   #headerbar {
     padding: 10px 20px;
   }
