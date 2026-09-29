@@ -2606,7 +2606,7 @@ header .btn-contacto { display: none; }
   .icono-header { width: 54px; height: 54px;}
 
   /* HERO  */
-  #hero { height: 74dvh;}
+  #hero { height: 80dvh;}
   #hero-content {grid-template-columns: 1fr; padding: 0; gap: 280px; margin:40px 0;}
   .hero-sub{display:none;}
   .hero-right { width: 300px; place-items: center; text-align: center; grid-area: 3 / 1; }
