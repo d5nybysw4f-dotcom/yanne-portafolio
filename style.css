@@ -2613,7 +2613,7 @@ header .btn-contacto { display: none; }
   #hero::after {
   content: "";
   position: absolute;
-  bottom: -70px; 
+  bottom: -40px; 
   width: 478px;
   height: 250px;  
   background-image: url('imagenes/rayon.png');
@@ -2726,4 +2726,14 @@ header .btn-contacto { display: none; }
   .skills-fila {gap: 5px; grid-template-columns: repeat( 2,1fr);}
   .skills-grupo { align-items: center; gap: 5px;}
   .skills-grupo h4 { font-size: 0.6em; white-space: nowrap;}
+  #hero::after {
+  bottom: -45px; 
+  width: 358px;
+  height: 265px; 
+  background-image: url('imagenes/rayon-2.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: bottom center;
+  pointer-events: none;
+}
 }
