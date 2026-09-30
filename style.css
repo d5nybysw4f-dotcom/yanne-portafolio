@@ -2604,13 +2604,27 @@ header .btn-contacto { display: none; }
   #container{ background-color: #000;}
   #headerbar { padding: 10px 20px;}
   .icono-header { width: 54px; height: 54px;}
-
   /* HERO  */
-  #hero { height: 90dvh;}
-  #hero-content {grid-template-columns: 1fr; padding: 0; gap: 350px; margin:80px 0;}
+  #hero { height: 90dvh; position: relative;}
+  #hero-content {grid-template-columns: 1fr; padding: 0; gap: 330px; margin:80px 0;}
   .hero-sub{display:none;}
   .hero-right { width: 300px; place-items: center; text-align: center; grid-area: 3 / 1; }
   .hero-left { width: 230px; text-align: center; grid-area: 2/ 1;}
+  #hero::after {
+  content: "";
+  position: absolute;
+  bottom: -70px; 
+  width: 478px;
+  height: 250px;  
+  background-image: url('imagenes/rayon.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: bottom center;
+  z-index: 2;   
+  pointer-events: none; 
+}
+.sobre-bg {z-index:3;}
+#sobre-mi-content {z-index: 4;}
   .card-wrapper {
     width: 230px;
     height: 230px;
